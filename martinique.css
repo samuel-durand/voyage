@@ -224,6 +224,7 @@ nav{
     display: flex;
     margin-left: 3%;
     margin-right: 3%;
+    gap: 80px;
 }
 
 .box_2 {
@@ -252,22 +253,30 @@ nav{
 .box_warpper_s2 {
     display: flex;
     flex-wrap: wrap;
+    gap: 45px;
 }
 .box_warpper_s2 h4{
     font-size: 20px;
     margin: 1%;
+    font-family: wulkan-med;
 }
 .box_3, .box_4, .box_5, .box_6, .box_7, .box_8, .box_9, .box_10 {
-    width: 50%;
+    width: 32%;
     text-align: center;
+    background: linear-gradient(360deg, rgba(33, 37, 41, 0.6) 0%, rgba(33, 37, 41, 0.24) 100%);
+    backdrop-filter: blur(23px);
+    border-radius: 19px;
+    padding: 12px 20px;
 }
 .box_3 img, .box_4 img, .box_5 img, .box_6 img, .box_7 img, .box_8 img, .box_9 img, .box_10 img{
-    width: 50%;
-    border-radius: 10px;
+    width: 74%;
+    border-radius: 8px;
+    
 }
 .box_1 p,.box_3 p,.box_4 p,.box_5 p,.box_6 p,.box_7 p,.box_8 p,.box_9 p,.box_10 p{
     margin: 1%;
     text-transform: uppercase;
+    font-weight: 300;
 }
 
 
