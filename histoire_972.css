@@ -17,7 +17,7 @@ body{
 }
 
 body{
-    background-image: url(images-martinique/martinique-bg.png);
+    background-image: url(images-histoire/6e939fa3d09dea7df85dec85d68ae150.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -74,6 +74,7 @@ nav{
 	color: #FFFFFF;
 	font-size: 12px;
 	text-transform: uppercase;
+    text-shadow: 2px 2px 5px black;
 }
 #menu a.dropdown-arrow:after {
 	content: "\25BE";
@@ -81,6 +82,7 @@ nav{
 }
 #menu li a:hover {
 	color: #FFFFFF;
+    text-shadow: 2px 2px 5px black;
 }
 #menu input {
 	display: none;
@@ -118,6 +120,7 @@ nav{
 #menu ul.sub-menus a {
 	color: #FFFFFF;
 	font-size: 12px;
+    text-shadow: 2px 2px 5px black;
 }
 #menu li:hover ul.sub-menus {
 	display: block
@@ -167,4 +170,90 @@ nav{
   background-color: #FCCB06;  
   border-bottom-style: none;
   border-color: #dadada;
+}
+
+.background_1{
+    color: #FFF;
+    height: 30%;
+    font-family: wulkan-med;
+    font-size: 44px;
+}
+.title_s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title_s1 h2{
+    margin-top: 6%;
+    text-shadow: 2px 2px 5px black;
+}
+.s2{
+    background-color: #FFF;
+}
+.color_s2{
+    background-color: #dadada;
+    height: 40px;
+}
+.intro_s2{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+    text-align: center;
+}
+.box_warpper_s2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.box_s2_1 h3{
+    text-transform: uppercase;
+    font-family: wulkan-med;
+    font-size: 25px;
+}
+.sub_box_s2_1 {
+    display: flex;
+}
+.img_s2_1 img{
+    width: 80%;
+}
+.para_s2_1{
+    width: 48%;
+}
+
+/********************           SECTION FOOTER         *************************/
+/********************************************************************************/
+/********************************************************************************/    
+
+footer{
+    background-color: #222e50;
+    color: #FFF;
+    height: 35%;
+}
+.container_footer{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.box_warpper_foot{
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+.box_foot_1 h4,.box_foot_2 h4{
+    text-transform: uppercase;
+    color: #FCCB06;
+    font-size: 12px;
+}
+.box_foot_1 ul,.box_foot_2 p{
+    font-family: wulkan-med;
+    font-size: 24px;
+}
+.box_foot_1 ul{
+    padding: 0;
+}
+.box_foot_3 h4{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.box_sub_foot_3{
+    display: flex;
+    gap: 35%;
 }
