@@ -240,10 +240,12 @@ nav{
     margin-bottom: 0%;
 }
 .box_2 h6{
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 700;
     color: #FCCB06;
     margin-bottom: 2%;
+    font-family: wulkan-med;
+    text-transform: uppercase;
 }
 .box_2 p {
     margin-left: 20%;
@@ -277,6 +279,7 @@ nav{
     margin: 1%;
     text-transform: uppercase;
     font-weight: 300;
+    color: #edf7f6;
 }
 
 
@@ -430,7 +433,9 @@ nav{
 /********************************************************************************/  
 .faune {
     height: 105%;
+
 }
+
 .box_warpper_faune{
     display: flex;
     align-items: center;
@@ -504,9 +509,25 @@ nav{
 
 }
 
+
 /********************           SECTION RANDO          **************************/
 /********************************************************************************/
 /********************************************************************************/   
+*, ::before, ::after {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.randonnées{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background: #f1efec;
+    padding-bottom: 5%;
+}
+#block {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
 
 .containers_rando{
     margin-left: 15%;
@@ -518,6 +539,77 @@ nav{
 .title_rando h4{
     font-size: 54px;
     font-family: wulkan-med;
+}
+.title_rando p {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-weight: 400;
+    margin-bottom: 7%;
+}
+.box_rando_1{
+
+    border-radius: 8px;
+}
+.box_rando_1 h3{
+    margin-left: 3.6%;
+    font-size: 32px;
+    font-family: wulkan-med;
+}
+.sub_box_rando_1{
+    display: flex;
+    justify-content: space-around;
+}
+.sub_box_rando_1 img {
+    width: 45%;
+    border-radius: 8px;
+}
+#img_rando_1{
+    width: 40%;
+    border-radius: 8px;
+
+}
+.rando_1111 {
+    display: flex;
+    backdrop-filter: blur(23px);
+    padding: 20px 20px;
+    background: #ADD5FF;
+    border-radius: 8px;
+}
+ul#list_rando {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    text-align: initial;
+    margin: 0;
+}
+.list\+para_1 {
+    width: 40%;
+}
+.para_rando_1{
+    margin-top: 50px;
+}
+.box_rando_2{
+    border-radius: 8px;
+    text-align: end;
+}
+.box_rando_2 h3{
+    margin-right: 3.6%;
+    font-size: 32px;
+    font-family: wulkan-med;
+}
+.sub_box_rando_2{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.sub_box_rando_2 img {
+    width: 45%;
+    border-radius: 8px;
+}
+#img_rando_2{
+    width: 40%;
+    border-radius: 8px;
 }
 
 /********************           SECTION CONTACT         *************************/
