@@ -219,11 +219,12 @@ nav{
 .plages{
     background-color: #222e50;
     color: #FFF;
+    padding-bottom: 2%;
 }
 .container_s2 {
     display: flex;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 7%;
+
     gap: 80px;
 }
 
@@ -288,7 +289,7 @@ nav{
 /********************************************************************************/    
 
 .plonges{
-    height: 90%;
+    height: 100%;
     background-color: #edf7f6;
 }
 .box_s3-2 img,.box_s3-3 img,.box_s3-4 img,.box_s3-5 img,.box_s3-6 img{
@@ -572,7 +573,7 @@ nav{
     display: flex;
     backdrop-filter: blur(23px);
     padding: 20px 20px;
-    background: #ADD5FF;
+    background: #edf7f6;
     border-radius: 8px;
 }
 ul#list_rando {
