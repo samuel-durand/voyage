@@ -97,12 +97,34 @@ header nav .right button:hover{
 
 .second {
     margin: 0;
+    display: flex;
+    justify-content: flex-start;
     background-color: #13181d;
 }
 
 .second .presentations .new {
     color: var(--aqua);
+    
 }
+
+.second .p1 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.second .image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #00ffff;
+}
+
+  
+  
+
 
 footer {
     margin: 0;
@@ -123,3 +145,10 @@ footer p {
 footer p:hover {
     color: white;
 }
+
+
+
+
+
+
+
