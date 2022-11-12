@@ -96,6 +96,7 @@ header nav .right button:hover{
 }
 
 .second {
+    
     margin: 0% auto;
     background-color: #13181d;
 }
@@ -107,39 +108,59 @@ header nav .right button:hover{
 }
 
 .second .p1 {
-    text-align: justify;
-    width: 90%;
+
+    text-align: left;
     
 }
 
 .second .imagetest {
-    padding: 30px;
-    right: -10%;
-    float: right;
+    top: -30px;
     border-radius: 5px;
     height: 300px;
     width: 40%;
+    
+}
+
+.second .p2 {
+    text-align: left;
+    
+    width: 600px;
+   
 }
 
 .second .image2 {
-    padding: 30px;
-    right: -40%;
+    top: -60%;
+    left: 40px;
+
     float: right;
     border-radius: 5px;
     width: 60%;
-    height: 300px;
+    height: 400px;
 }
 
 .second .image3 {
+    position: relative;
+    top: -30px;
     padding: 30px;
     width: 50%;
-    height: 400px;
+    height: 650px;
     float: right;
 }
 
 .second .p3 {
     text-align: justify;
     width: 80%;
+}
+
+.second .p4 {
+    text-align: right;
+    width: 70%;
+}
+.second .image4 {
+    padding: 30px;
+    width: 60%;
+    height: 400px;
+    float: right;
 }
 
 
