@@ -11,10 +11,12 @@
 @keyframes anim {
     from {
         background-image: url("images/background-image.jpg");
+        background-size: 2000px 1000px;
     }
     
     to {
         background-image: url("images/background-image6.jpg");
+        background-size: 2000px 1000px;
     }
 }
 
