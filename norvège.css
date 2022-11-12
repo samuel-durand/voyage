@@ -109,75 +109,115 @@ header nav .right button:hover{
 
 /*p*/
 .second .p1 {
-
+    width: 100%;
     text-align: left;
     
 }
 
 .second .p2 {
+    width: 100%;
     text-align: left;
 }
 
 .second .p3 {
-    text-align: justify;
-    width: 80%;
+    text-align: left;
+    width: 100%;
 }
 
 .second .p4 {
-    text-align: right;
-    width: 70%;
+    text-align: left;
+    width: 100%;
+}
+
+.second .p5 {
+    text-align: left;
+    width: 100%;
+}
+
+.second .p6 {
+    text-align: left;
+    width: 100%;
+}
+
+.second .p7 {
+    text-align: left;
+    width: 100%;
+}
+
+.second .p8 {
+    text-align: left;
+    width: 100%;
+}
+
+.second .p9 {
+    text-align: left;
+    width: 100%;
+}
+
+.second .p9 {
+    text-align: left;
+    width: 100%;
 }
 
 /*image main box*/
 
 .second .image1 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 600px;
 }
 
 .second .image2 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 500px;
 }
 
 .second .image3 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 700px;
 }
 
 .second .image4 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 700px;
 }
 
 .second .image5 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 400px;
 }
 
 .second .image6 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 600px;
 }
 
 .second .image7 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 400px;
 }
 
 .second .image8 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
 }
 
 .second .image9 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 700px;
 }
 
 .second .image10 {
     border-radius: 5px;
-    width: 60%;
+    width: 100%;
+    height: 700px;
 }
 
 
