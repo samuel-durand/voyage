@@ -9,6 +9,13 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(255, 255, 255);
 }
+
+/*header*/
+
+header .headerimage {
+    float: right;
+}
+
 header {
     background: linear-gradient(#13181d, #20212e, #341b47);
 }
@@ -288,7 +295,7 @@ footer {
     background-color: #000000;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
@@ -303,6 +310,10 @@ footer p:hover {
     color: white;
 }
 
+footer .column-2 {
+    position: relative;
+    right: -42%;
+}
 
 
 
