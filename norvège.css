@@ -61,6 +61,7 @@ header nav .right button:hover{
 
 .menu
 {
+
   background: #341b47;
   border-radius: 6px;
 }
@@ -109,7 +110,6 @@ header nav .right button:hover{
   border-radius: 6px;
   width: 100%;
   padding: 10px 2px;
-  box-shadow: 0px 20px 100px 0px rgba(0, 0, 0, 0.5);
 }
 
 /*presentation page*/
