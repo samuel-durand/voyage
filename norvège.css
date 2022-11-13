@@ -285,7 +285,23 @@ header nav .right button:hover{
     height: 700px;
 }
 
+/*links style*/
 
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: rgb(255, 0, 0);
+}
 
 /*footer*/
 
