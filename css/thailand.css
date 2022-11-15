@@ -21,7 +21,7 @@ header {
   display: flex;
   margin: 0;
   padding: 0;
-  background: url(img/background-top.webp) no-repeat center fixed;
+  background: url(../img/background-top.webp) no-repeat center fixed;
   -webkit-background-size: cover;
   background-size: cover;
   height: 640px;
@@ -34,7 +34,7 @@ header.contact {
   display: flex;
   margin: 0;
   padding: 0;
-  background: url(img/background-top-2.webp) no-repeat center fixed;
+  background: url(../img/background-top-2.webp) no-repeat center fixed;
   -webkit-background-size: cover;
   background-size: cover;
   height: 640px;
@@ -47,7 +47,7 @@ header.escapades {
   display: flex;
   margin: 0;
   padding: 0;
-  background: url(img/koh-phi-phi.jpg) no-repeat center fixed;
+  background: url(../img/koh-phi-phi.jpg) no-repeat center fixed;
   -webkit-background-size: cover;
   background-size: cover;
   height: 640px;
